@@ -1,0 +1,92 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: Antonio;
+}
+.leftbar {
+    width: 22%;
+}
+.middleContainer {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+}
+.title {
+    font-size: 30px;
+}
+.tweetList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-y: scroll;
+    mask-image: linear-gradient(to bottom, black calc(100% - 48px), transparent 100%);
+}
+.tweetList::-webkit-scrollbar {
+    display: none;
+}
+.rightbar {
+    width: 20%;
+    padding: 10
+}
+.profile {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 10% 60px 10%;
+    padding: 50px 0 50px 0;
+}
+.profilePic {
+    width: 120px;
+    height: 120px;
+    margin-right: 40px;
+}
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+    width: 100%;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.firstname {
+    font-size: 20px;
+    font-weight: 800;
+}
+.infos {
+    display: flex;
+    width: 100%;
+}
+.tweetsInfos {
+    width: 50%;
+}
+
+.follow {
+    font-size: 18px;
+    border: 1px solid black;
+    font-family: Antonio;
+    color: black;
+    background-color: transparent;
+    height: 24px;
+    width: 100px;
+    border-radius: 2000px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .follow:hover {
+    cursor: pointer;
+    background-color: #F8F7E3;
+    color: black;
+    transition: 0.4s ease-out;
+  }

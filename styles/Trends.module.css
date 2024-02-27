@@ -1,0 +1,33 @@
+.trends {
+    padding: 0 30px 0 30px;  
+    overflow-y: scroll;
+    mask-image: linear-gradient(to bottom, black calc(100% - 48px), transparent 100%);
+}
+.trends::-webkit-scrollbar {
+    display: none;
+}
+.title {
+    font-size: 30px;
+}
+.container {
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 72px;
+    padding: 10px 16px;
+    margin-bottom: 5px;
+    overflow-x: hidden;
+    cursor:pointer;
+}
+.hashtag {
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    mask-image: linear-gradient(to right, black calc(100% - 48px), transparent 100%);
+}
+.count {
+    font-weight: 300;
+    margin: 0;
+}

@@ -1,0 +1,63 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 60px 0;
+}
+.logoContainer {
+    width: 80%;
+}
+.logo {
+    height: 104px;
+    width: 104px;
+    cursor: pointer;
+}
+.bottom {
+    width: 80%;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.profilePic {
+    width: 60px;
+    height: 60px;
+}
+.user {
+    display:flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.firstname {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.username {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+}
+.logout {
+    font-size: 18px;
+    border: 1px solid black;
+    font-family: Antonio;
+    color: black;
+    background-color: transparent;
+    height: 24px;
+    width: 100px;
+    border-radius: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout:hover {
+    cursor: pointer;
+}
+.clickable {
+    cursor: pointer;
+}

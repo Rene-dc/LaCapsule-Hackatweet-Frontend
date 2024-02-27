@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Antonio,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #F8F7E3;
+}
+
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+}

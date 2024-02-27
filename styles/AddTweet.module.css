@@ -1,0 +1,53 @@
+.newTweetContainer {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.tweetInput {
+    border: none;
+    background-color: transparent;
+    font-family: Antonio;
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 110px;
+    max-height: 110px;
+    padding: 6px;
+}
+.tweetInput:focus {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.separator {
+    height: 1px;
+    background-color: black;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+.tweet {
+    font-size: 18px;
+    border: 1px solid black;
+    font-family: Antonio;
+    color: black;
+    background-color: transparent;
+    height: 24px;
+    width: 100px;
+    border-radius: 2000px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tweet:hover {
+    cursor: pointer;
+    background-color: #F8F7E3;
+    color: black;
+    transition: 0.4s ease-out;
+  }

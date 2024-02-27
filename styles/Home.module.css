@@ -1,0 +1,130 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 4rem 0;
+}
+.title {
+  line-height: 1.15;
+  font-size: 6rem;
+  font-family: Anton;
+  letter-spacing: 6px;
+  margin: 40px 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.left {
+  padding-right: 100px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.separator {
+  width: 1px;
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+.right {
+  padding-left: 100px;
+  padding-top: 60px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.join {
+  font-family: Antonio;
+  font-weight: 400;
+  font-size: 40px;
+}
+.signup {
+  font-size: 40px;
+  font-family: Antonio;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  height: 69px;
+  width: 227px;
+  border-radius: 2000px;
+  margin-bottom: 20px;
+  padding-bottom: 6px;
+}
+.signup:hover {
+  cursor: pointer;
+  background-color: rgb(52, 52, 52);
+  color: white;
+  transition: 0.4s ease-out;
+}
+.signin {
+  font-size: 40px;
+  border: 1px solid black;
+  font-family: Antonio;
+  color: black;
+  background-color: transparent;
+  height: 69px;
+  width: 227px;
+  border-radius: 2000px;
+  padding-bottom: 6px;
+}
+
+.signin:hover {
+  cursor: pointer;
+  background-color: rgb(248, 247, 230);
+  color: black;
+  transition: 0.4s ease-out;
+}
+
+.registerSection {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #252525d8;
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  display: none;
+}
+.registerCard {
+  width: 640px;
+  height: 440px;
+  background-color: #F8F7E3;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  font-family: Antonio;
+}
+.close {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.close:hover {
+  cursor: pointer;
+}
+.registerTitle {
+  font-size: 40px;
+}
+.inputField {
+  width: 60%;
+  height: 40px;
+  border-radius: 2000px;
+  background-color: transparent;
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 0 0 2px 12px;
+  font-family: Antonio;
+  margin-bottom: 10px;
+}
